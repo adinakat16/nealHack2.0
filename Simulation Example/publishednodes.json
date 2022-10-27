@@ -1,0 +1,38 @@
+[
+    {
+        "EndpointUrl": "opc.tcp://20.253.192.47:53530/OPCUA/SimulationServer",
+        "UseSecurity": false,
+        "OpcNodes": [
+            {
+                "Id": "ns=3;i=1014",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },
+            {
+                "Id": "ns=3;i=1034",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },{
+                "Id": "ns=3;i=1029",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },{
+                "Id": "ns=3;i=1015",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },{
+                "Id": "ns=3;i=1025",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },{
+                "Id": "ns=3;i=1035",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },{
+                "Id": "ns=3;i=1030",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            }
+        ]
+    }
+]
